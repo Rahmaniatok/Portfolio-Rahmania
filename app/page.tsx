@@ -18,7 +18,7 @@ export default function Home(){
           </h2>
           <div className="flex justify-center p-4">
             <Link className="text-xl font-semibold rounded border  hover:text-white px-4 py-4 bg-[#F1D302]"
-            href="https://drive.google.com/file/d/1jBDKM65qSYuhlO3AbdpUqA5uLmYIt9T-/view?usp=sharing">Download CV</Link>
+            href="https://drive.google.com/file/d/11CwwsbF13gzzfAl3NscA8yAajLkoyjGz/view?usp=sharing">Download CV</Link>
           </div>
         </div>
         <img className=" w-[225px] md:w-[480px]" src="/foto1.png"></img>
@@ -76,7 +76,7 @@ export default function Home(){
           <h3 className="text-2xl md:text-4xl font-sans font-semibold text-center">Projects</h3>
           <div className="flex justify-center py-8">
           <Link href={"/treeageestimation"}>
-            <div className="w-80 h-64 overflow-hidden rounded hover:bg-[#F1D302]">
+            <div className="w-80 h-[280px] shadow-xl overflow-hidden rounded hover:bg-[#F1D302]">
               <img className="w-[200px] md:w-[300px] mx-2" src="/projects/Treeageestimation.png"></img>
               <h4 className="text-l md:text-xl font-semibold font-sans text-center">
               Tree Age Estimation
@@ -87,7 +87,7 @@ export default function Home(){
             </div>
             </Link>
             <Link href={"/sleepefficiency"}>
-            <div className="w-80 overflow-hidden rounded hover:bg-[#F1D302]">
+            <div className="w-80 h-[280px] shadow-xl overflow-hidden rounded hover:bg-[#F1D302]">
               <img className="w-[200px] md:w-[300px] mx-2" src="/projects/Sleepefficiency.png"></img>
               <h4 className="text-l md:text-xl font-semibold font-sans text-center">
               Sleep Efficiency regeression
@@ -98,7 +98,7 @@ export default function Home(){
             </div>
             </Link>
             <Link href={"/kucingkoding"}>
-              <div className="w-80 overflow-hidden rounded hover:bg-[#F1D302]">
+              <div className="w-80 h-[280px] shadow-xl overflow-hidden rounded hover:bg-[#F1D302]">
                 <img className="w-[200px] md:w-[300px] mx-2" src="/projects/kucingkoding.png"></img>
                 <h4 className="text-l md:text-xl font-semibold font-sans text-center">
                   kucingkoding.com
