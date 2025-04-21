@@ -5,7 +5,7 @@ export default function Home(){
   return(
     <main>
       <Navbar />
-      <section id="home" className="min-h-[100vh] overflow-x-hidden px-[20px] md:px-[200px] lg:px-[200px] pt-[80px] md:pt-0 md:flex  justify-around items-center ">
+      <section id="home" className="min-h-[100vh] overflow-x-hidden px-[20px] md:px-[200px] pt-[80px] md:pt-0 flex flex-col md:flex-row justify-around items-center">
         <div className="content-center">
           <h2 className="py-2 text-2xl text-center md:text-4xl font-sans flex justify-center">
             Hi! I am
@@ -23,7 +23,7 @@ export default function Home(){
         </div>
         <img className=" w-[225px] md:w-[480px]" src="/foto1.png"></img>
       </section>
-      <section id="about" className="min-h-[100vh] overflow-x-hidden px-[20px] md:px-[200px] lg:px-[200px] pt-[80px] md:pt-0 md: flex justify-around items-center ">
+      <section id="about" className="min-h-[100vh] overflow-x-hidden px-[20px] md:px-[200px] pt-[80px] md:pt-0 flex flex-col md:flex-row justify-around items-center">
         <img className="w-[225px] md:w-[480px]" src="/foto2.png"></img>
         <div className="content-center pl-8">
           <h3 className="text-2xl md:text-4xl font-sans font-semibold">About</h3>
@@ -35,7 +35,7 @@ export default function Home(){
             </a>
         </div>
       </section>
-      <section id="skills" className="min-h-[100vh] px-[20px] md:px[200px] lg:px-[200px] md:pt-0 flex-row items-center">
+      <section id="skills" className="min-h-[100vh] px-[20px] md:px-[200px] lg:px-[200px] md:pt-0 flex flex-col items-center">
           <h3 className="text-2xl md:text-4xl font-sans font-semibold text-center pt-[100px]">Skills</h3>
           <h1 className="text-2xl md:text-4xl py-2 font-semibold font-sans text-center">
               Data Science & Artificial Intelligence
@@ -74,10 +74,10 @@ export default function Home(){
       <section id="projects">
         <div className="min-h-[50vh] pt-[100px]">
           <h3 className="text-2xl md:text-4xl font-sans font-semibold text-center">Projects</h3>
-          <div className="flex justify-center py-8">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-8 flex-wrap py-8">
           <Link href={"/treeageestimation"}>
             <div className="w-80 h-[280px] shadow-xl overflow-hidden rounded hover:bg-[#F1D302]">
-              <img className="w-[200px] md:w-[300px] mx-2" src="/projects/Treeageestimation.png"></img>
+              <img className="w-full md:w-[300px] object-contain mx-auto" src="/projects/Treeageestimation.png"></img>
               <h4 className="text-l md:text-xl font-semibold font-sans text-center">
               Tree Age Estimation
               </h4>
@@ -88,7 +88,7 @@ export default function Home(){
             </Link>
             <Link href={"/sleepefficiency"}>
             <div className="w-80 h-[280px] shadow-xl overflow-hidden rounded hover:bg-[#F1D302]">
-              <img className="w-[200px] md:w-[300px] mx-2" src="/projects/Sleepefficiency.png"></img>
+              <img className="w-full md:w-[300px] object-contain mx-auto" src="/projects/Sleepefficiency.png"></img>
               <h4 className="text-l md:text-xl font-semibold font-sans text-center">
               Sleep Efficiency regeression
               </h4>
@@ -99,7 +99,7 @@ export default function Home(){
             </Link>
             <Link href={"/kucingkoding"}>
               <div className="w-80 h-[280px] shadow-xl overflow-hidden rounded hover:bg-[#F1D302]">
-                <img className="w-[200px] md:w-[300px] mx-2" src="/projects/kucingkoding.png"></img>
+                <img className="w-full md:w-[300px] object-contain mx-auto" src="/projects/kucingkoding.png"></img>
                 <h4 className="text-l md:text-xl font-semibold font-sans text-center">
                   kucingkoding.com
                 </h4>
