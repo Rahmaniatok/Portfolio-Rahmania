@@ -20,9 +20,19 @@ body {
   color: rgb(var(--foreground-rgb));
   background: url("/background.svg");
   background-size: cover;
-  background-repeat:repeat-y;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  background-attachment: fixed;
   @apply text-black;
+}
 
+@media (max-width: 768px) {
+  body {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
 }
 
 @layer utilities {
