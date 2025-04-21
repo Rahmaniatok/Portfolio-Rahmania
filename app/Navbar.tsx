@@ -23,7 +23,7 @@ export default function Navbar() {
 
         {/* Menu - Desktop */}
         <div className="hidden md:flex space-x-6">
-          <NavLinks />
+          <NavLinks onClick={() => setIsOpen(false)} />
         </div>
       </div>
 
