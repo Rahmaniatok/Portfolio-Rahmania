@@ -4,6 +4,11 @@ import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
+// Define the type for the onClick prop
+interface NavLinksProps {
+  onClick: () => void; // onClick is a function that doesn't take any arguments and doesn't return anything
+}
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -37,7 +42,8 @@ export default function Navbar() {
   );
 }
 
-function NavLinks({ onClick }) {
+// Update NavLinks component to use the defined type
+function NavLinks({ onClick }: NavLinksProps) {
   const classes = "hover:text-white transition duration-300";
   return (
     <>
