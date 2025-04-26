@@ -51,26 +51,32 @@ export default function Home(){
           <h1 className="text-2xl md:text-4xl py-2 font-semibold font-sans text-center">
               Web Development
           </h1>
-          <div className="flex justify-center">
-            <img className="w-[80px] md:w-[120px] mx-4" src="/webdev/HTML.png"></img>
-            <img className="w-[80px] md:w-[120px] mx-4" src="/webdev/CSS.png"></img>
-            <img className="w-[80px] md:w-[120px] mx-4" src="/webdev/Javascript.png"></img>
-            <img className="w-[80px] md:w-[120px] mx-4" src="/webdev/My SQL.png"></img>
-            <img className="w-[80px] md:w-[120px] mx-4" src="/webdev/Nextjs.png"></img>
+          <div className="overflow-x-auto">
+            <div className="flex flex-nowrap px-4 py-2">
+              <img className="w-[80px] md:w-[120px] mx-4" src="/webdev/HTML.png"></img>
+              <img className="w-[80px] md:w-[120px] mx-4" src="/webdev/CSS.png"></img>
+              <img className="w-[80px] md:w-[120px] mx-4" src="/webdev/Javascript.png"></img>
+              <img className="w-[80px] md:w-[120px] mx-4" src="/webdev/My SQL.png"></img>
+              <img className="w-[80px] md:w-[120px] mx-4" src="/webdev/Nextjs.png"></img>
+            </div>
           </div>
           <h1 className="text-2xl md:text-4xl py-2 font-semibold font-sans text-center">
               Android Development
           </h1>
-          <div className="flex justify-center">
-            <img className="w-[80px] md:w-[120px] mx-4" src="/android/Android Studio.png"></img>
-            <img className="w-[80px] md:w-[120px] mx-4" src="/android/Kotlin.png"></img>
+          <div className="overflow-x-auto">
+            <div className="flex flex-nowrap px-4 py-2">
+              <img className="w-[80px] md:w-[120px] mx-4" src="/android/Android Studio.png"></img>
+              <img className="w-[80px] md:w-[120px] mx-4" src="/android/Kotlin.png"></img>
+            </div>
           </div>
           <h1 className="text-2xl md:text-4xl py-2 font-semibold font-sans text-center">
               Programming Languages
           </h1>
-          <div className="flex justify-center">
-            <img className="w-[80px] md:w-[120px] mx-4" src="/programming/Python.png"></img>
-            <img className="w-[80px] md:w-[120px] mx-4" src="/programming/C++.png"></img>
+          <div className="overflow-x-auto">
+            <div className="flex flex-nowrap px-4 py-2">
+              <img className="w-[80px] md:w-[120px] mx-4" src="/programming/Python.png"></img>
+              <img className="w-[80px] md:w-[120px] mx-4" src="/programming/C++.png"></img>
+            </div>
           </div>
       </section>
       <section id="projects">
