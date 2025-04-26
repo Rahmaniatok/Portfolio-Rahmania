@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "slug": "treeageestimation",
+      "slug": "/treeageestimation",
       "title": "Tree Age Estimation",
       "image": "/projects/Treeageestimation.png",
       "description": "This program estimates the age of a tree based on the tree rings on its trunk. The input for this program is an image of the tree trunk, which will be processed using edge detection to count the number of rings detected.",
