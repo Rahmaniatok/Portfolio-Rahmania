@@ -86,7 +86,7 @@ export default function Home(){
           <h3 className="text-2xl md:text-4xl font-sans font-semibold text-center">Projects</h3>
           <div className="flex flex-col md:flex-row justify-center items-center gap-8 flex-wrap py-8">
             {projects.map((project, index) => (
-              <Link href={`/${project.slug}`} key={index}>
+              <Link href={`${project.slug}`} key={index}>
                 <div className="w-80 h-[280px] shadow-xl overflow-hidden rounded hover:bg-[#F1D302]">
                   <img
                     className="w-full md:w-[300px] object-contain mx-auto"
