@@ -5,7 +5,7 @@ export default function Home(){
   return(
     <main>
       <Navbar />
-      <section id="home" className="min-h-[100vh] overflow-x-hidden px-[20px] md:px-[200px] pt-[80px] md:pt-0 flex flex-col md:flex-row justify-around items-center">
+      <section id="home" className="min-h-[100vh] overflow-x-hidden px-0 md:px-[200px] pt-[80px] md:pt-0 flex flex-col md:flex-row justify-around items-center">
         <div className="content-center">
           <h2 className="py-2 text-2xl text-center md:text-4xl font-sans flex justify-center">
             Hi! I am
