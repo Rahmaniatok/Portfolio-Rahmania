@@ -1,0 +1,45 @@
+[
+    {
+      "id": "1",
+      "slug": "treeageestimation",
+      "title": "Tree Age Estimation",
+      "image": "/projects/Treeageestimation.png",
+      "description": "This program estimates the age of a tree based on the tree rings on its trunk. The input for this program is an image of the tree trunk, which will be processed using edge detection to count the number of rings detected.",
+      "partIMake": "I worked on finding the center point and drawing a line from center to the edge to count the rings (tree rings) that were intersected.",
+      "programFlow": [
+        {
+          "image": "/treeageestimation/1.png",
+          "description": "Convert to Gray Scale"
+        },
+        {
+          "image": "/treeageestimation/2.png",
+          "description": "Edge Detection"
+        },
+        {
+          "image": "/treeageestimation/3.png",
+          "description": "Implement Sobel Operator"
+        },
+        {
+          "image": "/treeageestimation/4.png",
+          "description": "Adaptive Thresholding"
+        },
+        {
+          "image": "/treeageestimation/5.png",
+          "description": "Find The Center"
+        },
+        {
+          "image": "/treeageestimation/6.png",
+          "description": "Counting Lines"
+        }
+      ],
+      "link": "https://github.com/Rahmaniatok/Tree-Age-Counting"
+    },
+    {
+      "id": "2",
+      "slug": "website-blog",
+      "title": "Website Blog",
+      "description": "Website blog sederhana dengan fitur markdown support.",
+      "image": "/projects/blog.png",
+      "link": "https://contohblog.com"
+    }
+  ]

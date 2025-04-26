@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Navbar from './Navbar';
+import projects from "../../data/projects.json"; 
+
 
 export default function Home(){
   return(
@@ -83,39 +85,23 @@ export default function Home(){
         <div className="min-h-[50vh] pt-[100px]">
           <h3 className="text-2xl md:text-4xl font-sans font-semibold text-center">Projects</h3>
           <div className="flex flex-col md:flex-row justify-center items-center gap-8 flex-wrap py-8">
-          <Link href={"/treeageestimation"}>
-            <div className="w-80 h-[280px] shadow-xl overflow-hidden rounded hover:bg-[#F1D302]">
-              <img className="w-full md:w-[300px] object-contain mx-auto" src="/projects/Treeageestimation.png"></img>
-              <h4 className="text-l md:text-xl font-semibold font-sans text-center">
-              Tree Age Estimation
-              </h4>
-              <h4 className="text-l md:text-xl font-sans text-center ">
-              Program for estimating tree age using Python.
-              </h4>
-            </div>
-            </Link>
-            <Link href={"/sleepefficiency"}>
-            <div className="w-80 h-[280px] shadow-xl overflow-hidden rounded hover:bg-[#F1D302]">
-              <img className="w-full md:w-[300px] object-contain mx-auto" src="/projects/Sleepefficiency.png"></img>
-              <h4 className="text-l md:text-xl font-semibold font-sans text-center">
-              Sleep Efficiency regeression
-              </h4>
-              <h4 className="text-l md:text-xl font-sans text-center ">
-              Program to regress sleep efficiency based on several factors using Python.
-              </h4>
-            </div>
-            </Link>
-            <Link href={"/kucingkoding"}>
-              <div className="w-80 h-[280px] shadow-xl overflow-hidden rounded hover:bg-[#F1D302]">
-                <img className="w-full md:w-[300px] object-contain mx-auto" src="/projects/kucingkoding.png"></img>
-                <h4 className="text-l md:text-xl font-semibold font-sans text-center">
-                  kucingkoding.com
-                </h4>
-                <h4 className="text-l md:text-xl font-sans text-center ">
-                A web-based assignment storage platform built using Next.js and Tailwind CSS.
-                </h4>
-              </div>
-            </Link>
+            {projects.map((project, index) => (
+              <Link href={project.link} key={index}>
+                <div className="w-80 h-[280px] shadow-xl overflow-hidden rounded hover:bg-[#F1D302]">
+                  <img
+                    className="w-full md:w-[300px] object-contain mx-auto"
+                    src={project.image}
+                    alt={project.title}
+                  />
+                  <h4 className="text-l md:text-xl font-semibold font-sans text-center">
+                    {project.title}
+                  </h4>
+                  <h4 className="text-l md:text-xl font-sans text-center">
+                    {project.description}
+                  </h4>
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
