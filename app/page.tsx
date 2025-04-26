@@ -23,7 +23,7 @@ export default function Home(){
         </div>
         <img className=" w-[225px] md:w-[480px]" src="/foto1.png"></img>
       </section>
-      <section id="about" className="min-h-[100vh] overflow-x-hidden px-[20px] md:px-[200px] pt-[80px] md:pt-0 flex flex-col md:flex-row justify-around items-center">
+      <section id="about" className="min-h-[100vh] overflow-x-hidden px-0 md:px-[200px] pt-[80px] md:pt-0 flex flex-col md:flex-row justify-around items-center">
         <img className="w-[225px] md:w-[480px]" src="/foto2.png"></img>
         <div className="content-center pl-8">
           <h3 className="text-2xl md:text-4xl font-sans font-semibold">About</h3>
@@ -35,7 +35,7 @@ export default function Home(){
             </a>
         </div>
       </section>
-      <section id="skills" className="min-h-[100vh] px-[20px] md:px-[200px] lg:px-[200px] md:pt-0 flex flex-col items-center">
+      <section id="skills" className="min-h-[100vh] px-0 md:px-[200px] lg:px-[200px] md:pt-0 flex flex-col items-center">
           <h3 className="text-2xl md:text-4xl font-sans font-semibold text-center pt-[100px]">Skills</h3>
           <h1 className="text-2xl md:text-4xl py-2 font-semibold font-sans text-center">
               Data Science & Artificial Intelligence
