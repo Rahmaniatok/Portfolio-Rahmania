@@ -12,23 +12,23 @@
           "description": "Convert to Gray Scale"
         },
         {
-          "image": "/treeageestimation/2.png",
+          "image": "/treeageestimation_image/2.png",
           "description": "Edge Detection"
         },
         {
-          "image": "/treeageestimation/3.png",
+          "image": "/treeageestimation_image/3.png",
           "description": "Implement Sobel Operator"
         },
         {
-          "image": "/treeageestimation/4.png",
+          "image": "/treeageestimation_image/4.png",
           "description": "Adaptive Thresholding"
         },
         {
-          "image": "/treeageestimation/5.png",
+          "image": "/treeageestimation_image/5.png",
           "description": "Find The Center"
         },
         {
-          "image": "/treeageestimation/6.png",
+          "image": "/treeageestimation_image/6.png",
           "description": "Counting Lines"
         }
       ],
