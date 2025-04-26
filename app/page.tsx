@@ -40,11 +40,13 @@ export default function Home(){
           <h1 className="text-2xl md:text-4xl py-2 font-semibold font-sans text-center">
               Data Science & Artificial Intelligence
           </h1>
-          <div className="flex justify-center">
-            <img className="w-[80px] md:w-[120px] mx-4" src="/datascience/Python.png"></img>
-            <img className="w-[80px] md:w-[120px] mx-4" src="/datascience/Tensorflow.png"></img>
-            <img className="w-[80px] md:w-[120px] mx-4" src="/datascience/Numpy.png"></img>
-            <img className="w-[80px] md:w-[120px] mx-4" src="/datascience/Opencv.png"></img>
+          <div className="overflow-x-auto">
+            <div className="flex flex-nowrap px-4 py-2">
+              <img className="w-[80px] md:w-[120px] mx-4" src="/datascience/Python.png"></img>
+              <img className="w-[80px] md:w-[120px] mx-4" src="/datascience/Tensorflow.png"></img>
+              <img className="w-[80px] md:w-[120px] mx-4" src="/datascience/Numpy.png"></img>
+              <img className="w-[80px] md:w-[120px] mx-4" src="/datascience/Opencv.png"></img>
+            </div>
           </div>
           <h1 className="text-2xl md:text-4xl py-2 font-semibold font-sans text-center">
               Web Development
