@@ -8,27 +8,27 @@
       "partIMake": "I worked on finding the center point and drawing a line from center to the edge to count the rings (tree rings) that were intersected.",
       "programFlow": [
         {
-          "image": "/treeageestimation_image/1.png",
+          "image": "/public/treeageestimation_image/1.png",
           "description": "Convert to Gray Scale"
         },
         {
-          "image": "/treeageestimation_image/2.png",
+          "image": "/public/treeageestimation_image/2.png",
           "description": "Edge Detection"
         },
         {
-          "image": "/treeageestimation_image/3.png",
+          "image": "/public/treeageestimation_image/3.png",
           "description": "Implement Sobel Operator"
         },
         {
-          "image": "/treeageestimation_image/4.png",
+          "image": "/public/treeageestimation_image/4.png",
           "description": "Adaptive Thresholding"
         },
         {
-          "image": "/treeageestimation_image/5.png",
+          "image": "/public/treeageestimation_image/5.png",
           "description": "Find The Center"
         },
         {
-          "image": "/treeageestimation_image/6.png",
+          "image": "/public/treeageestimation_image/6.png",
           "description": "Counting Lines"
         }
       ],
