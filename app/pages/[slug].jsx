@@ -11,6 +11,9 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+
+  console.log('params:', params);  // <-- ini akan muncul di terminal (server-side)
+
   const project = projects.find(p => p.slug === params.slug);
 
   return { props: { project } };
