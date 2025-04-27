@@ -44,7 +44,7 @@
       "id": "2",
       "slug": "sleepefficiencyregression",
       "title": "Sleep Efficiency Regression",
-      "image": "/projects/Sleepeficiency.png",
+      "image": "/projects/Sleepefficiency.png",
       "description": "Sleep efficiency is defined as the ratio of the time spent in bed to the time actually spent sleeping. This model aims to predict individuals at risk of sleep disorders and improve overall sleep quality by providing recommendations on how to enhance their sleep efficiency.",
       "partIMake": "I worked on the preprocessing and modeling using random forest for this project.",
       "programFlow": [
