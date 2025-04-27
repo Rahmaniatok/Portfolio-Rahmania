@@ -9,29 +9,82 @@
       "programFlow": [
         {
           "image": "/treeageestimation_image/1.png",
-          "description": "Convert to Gray Scale"
+          "title": "Convert to Gray Scale",
+          "description": ""
         },
         {
           "image": "/treeageestimation_image/2.png",
-          "description": "Edge Detection"
+          "title": "Edge Detection",
+          "description": ""
         },
         {
           "image": "/treeageestimation_image/3.png",
-          "description": "Implement Sobel Operator"
+          "title": "Implement Sobel Operator",
+          "description": ""
         },
         {
           "image": "/treeageestimation_image/4.png",
-          "description": "Adaptive Thresholding"
+          "title": "Adaptive Thresholding",
+          "description": ""
         },
         {
           "image": "/treeageestimation_image/5.png",
-          "description": "Find The Center"
+          "title": "Find The Center",
+          "description": ""
         },
         {
           "image": "/treeageestimation_image/6.png",
-          "description": "Counting Lines"
+          "title": "Counting Lines",
+          "description": ""
         }
       ],
       "link": "https://github.com/Rahmaniatok/Tree-Age-Counting"
+    },
+    {
+      "id": "2",
+      "slug": "sleepefficiencyregression",
+      "title": "Sleep Efficiency Regression",
+      "image": "/projects/Sleepeficiency.png",
+      "description": "Sleep efficiency is defined as the ratio of the time spent in bed to the time actually spent sleeping. This model aims to predict individuals at risk of sleep disorders and improve overall sleep quality by providing recommendations on how to enhance their sleep efficiency.",
+      "partIMake": "I worked on the preprocessing and modeling using random forest for this project.",
+      "programFlow": [
+        {
+          "image": "/sleepefficiency_image/1.png",
+          "title": "Data Statistic Analysis",
+          "description": "Modes, correlation, outliers, group data, range, frequency table"
+        },
+        {
+          "image": "/sleepefficiency_image/2.png",
+          "title": "Data Preparation",
+          "description": "Data Cleaning, Imputation, outlier handling, scling, feature selection "
+        },
+        {
+          "image": "/sleepefficiency_image/3.png",
+          "title": "Feature Selection",
+          "description": ""
+        },
+        {
+          "image": "/sleepefficiency_image/4.png",
+          "title": "Modelling, Tuning, and Evaluation",
+          "description": "Model : Random Forest, Linear Regression, SVM \n Tuning : GridSearchV"
+        }
+      ],
+      "link": "https://github.com/Rahmaniatok/Sleep-Efficiency-Regression"
+    },
+    {
+      "id": "3",
+      "slug": "kucingkoding",
+      "title": "kucingkoding.com Website",
+      "image": "/projects/Kucingkoding.png",
+      "description": "This project involved creating a website to store assignments. The framework used for this project was Next.js and Tailwind CSS. Unfortunately, this project has not been continued.",
+      "partIMake": "I created the entire project.",
+      "programFlow": [
+        {
+          "image": "/kucingkoding_image/1.png",
+          "title": "This website is a static landing page",
+          "description": ""
+        }
+      ],
+      "link": "https://www.kucingkoding.com/"
     }
   ]

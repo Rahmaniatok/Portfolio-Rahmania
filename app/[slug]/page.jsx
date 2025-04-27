@@ -50,22 +50,29 @@ export default function ProjectDetail({ params }) {
                 <h2 className="text-xl md:text-4xl py-2 font-semibold font-sans text-center mt-12">
                     Program Flow
                 </h2>
-                {project.programFlow.map((flow, index) => (
-                  <div key={index} className="flex justify-center py-4 items-center w-full">
-                    <div className="basis-1/2 flex justify-end">
-                      <img 
-                        className="h-[100px] md:h-[200px] mx-2" 
-                        src={flow.image} 
-                        alt={flow.description}
-                      />
+                {project.programFlow && project.programFlow.length > 0 ? (
+                  project.programFlow.map((flow, index) => (
+                    <div key={index} className="flex justify-center py-4 items-center w-full">
+                      <div className="basis-1/2 flex justify-end">
+                        <img 
+                          className="h-[100px] md:h-[200px] mx-2" 
+                          src={flow.image} 
+                          alt={flow.title}
+                        />
+                      </div>
+                      <div className="basis-1/2">
+                        <h4 className="text-l md:text-xl font-sans text-left font-semibold">
+                          {flow.title}
+                        </h4>
+                        <h4 className="text-l md:text-xl font-sans text-left">
+                          {flow.description}
+                        </h4>
+                      </div>
                     </div>
-                  <div className="basis-1/2">
-                    <h4 className="text-l md:text-xl font-sans text-left font-semibold">
-                      {flow.description}
-                    </h4>
-                  </div>
-              </div>
-                    ))}
+                  ))
+                ) : (
+                  <p className="text-center text-gray-500 mt-4">No program flow available.</p>
+                )}
 
                     {/* Link ke project */}
                     <h2 className="text-xl md:text-4xl py-2 font-semibold font-sans text-center mt-12">
