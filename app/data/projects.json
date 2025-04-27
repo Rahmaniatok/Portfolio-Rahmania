@@ -86,5 +86,60 @@
         }
       ],
       "link": "https://www.kucingkoding.com/"
+    },
+    {
+      "id": "4",
+      "slug": "sirnoboyowebsite",
+      "title": "Sirnoboyo Website",
+      "description": "The Sirnoboyo Website is a village website developed as part of a community service program (KKN). It showcases the potential of Sirnoboyo Village, including local products and an interactive UMKM (Micro, Small, and Medium Enterprises) map. The website was built using WordPress.",
+      "partIMake": "I was responsible for the complete development of the website, from design, frontend, and backend, to configuration setup to ensure easy updates and maintenance.",
+      "programFlow": [
+      {
+        "image": "/sirnoboyowebsite_image/1.png",
+        "title": "Landing Page",
+        "description": "Contains information about the village, a preview of local potentials, the latest news highlights, general content, and a photo gallery."
+      },
+      {
+        "image": "/sirnoboyowebsite_image/2.png",
+        "title": "UMKM Page",
+        "description": "Displays a list of local businesses (UMKM). Clicking on an entry shows detailed information about the business and its products."
+      },
+      {
+        "image": "/sirnoboyowebsite_image/3.png",
+        "title": "UMKM Detail Page",
+        "description": "Shows detailed information about a specific UMKM along with its products."
+      },
+      {
+        "image": "/sirnoboyowebsite_image/4.png",
+        "title": "Culinary Tourism Page",
+        "description": "Features a collection of articles highlighting culinary tourism spots in Sirnoboyo Village."
+      },
+      {
+        "image": "/sirnoboyowebsite_image/5.png",
+        "title": "Maps Page",
+        "description": "Includes three types of maps, one of which is an interactive map developed by our KKN team using Leaflet."
+      },
+      {
+        "image": "/sirnoboyowebsite_image/6.png",
+        "title": "UMKM Distribution Map Page",
+        "description": "An example of an interactive map showcasing the distribution of UMKM, created with Leaflet."
+      },
+      {
+        "image": "/sirnoboyowebsite_image/7.png",
+        "title": "News Page",
+        "description": "Lists the latest news and updates from Sirnoboyo Village."
+      },
+      {
+        "image": "/sirnoboyowebsite_image/8.png",
+        "title": "Calendar Page",
+        "description": "Shows upcoming events in Sirnoboyo Village. This page was built using a plugin."
+      },
+      {
+        "image": "/sirnoboyowebsite_image/9.png",
+        "title": "Contact Page",
+        "description": "Provides contact information for further inquiries."
+      }
+      ],
+      "link": "https://sirnoboyo.com/"
     }
   ]
