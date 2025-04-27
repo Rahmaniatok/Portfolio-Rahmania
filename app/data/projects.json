@@ -91,6 +91,7 @@
       "id": "4",
       "slug": "sirnoboyowebsite",
       "title": "Sirnoboyo Website",
+      "image": "/sirnoboyowebsite_image/utama.png",
       "description": "The Sirnoboyo Website is a village website developed as part of a community service program (KKN). It showcases the potential of Sirnoboyo Village, including local products and an interactive UMKM (Micro, Small, and Medium Enterprises) map. The website was built using WordPress.",
       "partIMake": "I was responsible for the complete development of the website, from design, frontend, and backend, to configuration setup to ensure easy updates and maintenance.",
       "programFlow": [
