@@ -33,13 +33,5 @@
         }
       ],
       "link": "https://github.com/Rahmaniatok/Tree-Age-Counting"
-    },
-    {
-      "id": "2",
-      "slug": "website-blog",
-      "title": "Website Blog",
-      "description": "Website blog sederhana dengan fitur markdown support.",
-      "image": "/projects/blog.png",
-      "link": "https://contohblog.com"
     }
   ]
