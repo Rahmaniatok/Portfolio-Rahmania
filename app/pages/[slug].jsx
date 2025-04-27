@@ -3,7 +3,7 @@ import Link from "next/link";
 import Navbarproject from "../Navbarproject"
 
 export async function getStaticPaths() {
-  const paths = projects.map((project) => ({
+  const paths = projects.map(project => ({
     params: { slug: project.slug },
   }));
 
@@ -11,12 +11,15 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const project = projects.find((p) => p.slug === params.slug);
+  const project = projects.find(p => p.slug === params.slug);
 
   return { props: { project } };
 }
 
 export default function ProjectDetail({ project }) {
+  if (!project){
+    return <div>Salah, tidak nemu</div>
+  }
   return (
     <main>
         <Navbarproject />
