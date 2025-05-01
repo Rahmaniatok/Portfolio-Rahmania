@@ -20,7 +20,7 @@ export default function Home(){
           </h2>
           <div className="flex justify-center p-4">
             <Link className="text-xl font-semibold rounded border  hover:text-white px-4 py-4 bg-[#F1D302]"
-            href="https://drive.google.com/file/d/11CwwsbF13gzzfAl3NscA8yAajLkoyjGz/view?usp=sharing">Download CV</Link>
+            href="https://drive.google.com/file/d/12ztAjXsrlLBPNhL0WQwHhlNF-xP4aFLQ/view?usp=sharing">Download CV</Link>
           </div>
         </div>
         <img className=" w-[225px] md:w-[480px]" src="/foto1.png"></img>
@@ -33,7 +33,7 @@ export default function Home(){
               About Me?
           </h1>
           <a className="text-l md:text-xl font-sans">
-            I am a Computer Science student at Gadjah Mada University (UGM), passionate about the dynamic realms of Data Science and Artificial Intelligence. With a robust skill set spanning data analysis, front-end development, and Android development, I thrive on bringing innovation to the digital landscape.  As a flexible and challenge-driven individual, I eagerly embrace opportunities to connect with others and explore new horizons. Excited to contribute my expertise and collaborate on cutting-edge projects, I am poised to make a meaningful impact in the world of technology and data.
+            I am a Computer Science graduate at Gadjah Mada University (UGM), passionate about the dynamic realms of Data Science and Artificial Intelligence. With a robust skill set spanning data analysis, front-end development, and Android development, I thrive on bringing innovation to the digital landscape.  As a flexible and challenge-driven individual, I eagerly embrace opportunities to connect with others and explore new horizons. Excited to contribute my expertise and collaborate on cutting-edge projects, I am poised to make a meaningful impact in the world of technology and data.
             </a>
         </div>
       </section>
